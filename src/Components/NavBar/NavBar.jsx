@@ -10,7 +10,7 @@ const NavBar = () => {
             <AppBar position="fixed" className={classes.AppBar} color="inherit">
                 <Toolbar>
                     <Typography variant="h6" className={classes.title} color="inherit">
-                        <img src='https://raichu-uploads.s3.amazonaws.com/logo_pichau-informatica_xqGfBh.png' alt="Commerce.js" height="25px" className={classes.image}/>
+                        <img src='https://raichu-uploads.s3.amazonaws.com/logo_pichau-informatica_xqGfBh.png' alt="Pichau" height="25px" className={classes.image}/>
                         Pichau
                     </Typography>
                     <div className={classes.grow}/>
