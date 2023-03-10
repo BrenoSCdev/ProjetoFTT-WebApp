@@ -28,12 +28,11 @@ const App = () => {
         fetchProdutos()
         fetchCarrinho()
     }, [])
-    console.log(cart)
     
 
     return (
         <div>
-            <NavBar/>
+            <NavBar totalItems={cart.total_items}/>
             <Produtos
              produtos={produtos}
             addToCart={lidaCarrinho}/>
