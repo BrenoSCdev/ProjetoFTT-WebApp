@@ -19,9 +19,9 @@ const App = () => {
     }
     
     const lidaCarrinho = async (produtoId, quantidade) => {
-        const item = await commerce.cart.add(produtoId, quantidade)
-
-        setCart(item.cart)
+        
+    setCart(await commerce.cart.add(produtoId, quantidade))
+        
     }
 
     useEffect( () => {
